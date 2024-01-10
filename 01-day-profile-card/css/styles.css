@@ -104,8 +104,12 @@ body {
 
 .list__item {
 	padding: 20px 5px;
-	color: var(--fb-bg-color);
 	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--fb-bg-color);
 }
 
 /* ----- iPads & tables ----- */
