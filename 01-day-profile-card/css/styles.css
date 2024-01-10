@@ -1,0 +1,111 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 12
+2. Variables ...................... 16
+3. Estilos generales .............. 27
+4. Créditos ....................... 37
+-------------------- */
+
+
+/* ----- Fuente ----- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+/* ----- Variables ----- */
+* {
+	--primary-font-family: 'Montserrat', sans-serif;
+	--body-bg-color: #212020;
+	--card-bg-color: #242323;
+	--text-color: #c2c2c2;
+	--fb-bg-color: #456da4;
+	--li-bg-color: #0984c6;
+	--ig-bg-color: #006184;
+	--lh-text: 22px;
+
+	--card-footer-bg-color: #1f2020;
+	--h2-text: 24px;
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+	font-family: var(--primary-font-family);
+	background-color: var(--body-bg-color);
+	color: var(--text-color);
+	line-height: var(--lh-text);
+
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+i {
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: var(--fb-bg-color);
+}
+
+h2 {
+	font-size: var(--h2-text);
+	font-weight: bold;
+}
+
+.content {
+	padding: 40px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icons {
+	padding: 20px 0;
+	width: 100%;
+
+	background-color: var(--card-footer-bg-color);
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+p {
+	text-align: center;
+}
+
+span {
+	
+}
+
+section {
+	background-color: var(--card-bg-color);
+	width: 360px;
+	border-radius: 10px;
+	box-shadow:
+		0px 0px 60px rgba(0, 0, 0, 0.2);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ------------------------
+Diseño: UIDesign Daily🎨
+Desarrollo: Frontend Club🔥
+--------------------------- */
