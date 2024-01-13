@@ -23,7 +23,7 @@ Tabla de contenidos:
 
 	--primary-font-family: 'Figtree', sans-serif;	
 	--lh-text: 22px;
-	--font-size: 16rem;
+	--font-size: 1rem;
 }
 
 
@@ -36,7 +36,65 @@ body {
 	color: var(--black-color);
 	font-size: var(--font-size);
 	line-height: var(--lh-text);
-	font-size: var(--font-size);
+}
+
+/* ----- Contenedor ----- */
+.container {
+	width: 100vw;
+	height: 100vh;
+	overflow:  hidden;
+
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+/* ----- Tarjeta ----- */
+.card {
+	width: 360px;
+	height: auto;
+	border: 1px solid var(--black-color);
+	border-radius: 16px;
+	padding: 20px;
+	background-color: var(--white-color);
+	box-shadow: 9px 9px 1px var(--black-color);
+}
+
+/* ----- Header ----- */
+.card--img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+/* ----- Body ----- */
+.card__body {
+	padding: 10px 0;
+}
+
+span {
+	padding: 4px 8px;
+	font-weight: bold;
+	background-color: var(--yellow-color);
+	border-radius: 5px;
+}
+
+small {
+	display: block;
+	margin: 12px 0;
+}
+
+.card--copy {
+	color: var(--grey-color);
+}
+
+/* ----- Footer ----- */
+.card__footer {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.author--name {
+	margin-left: 10px;
 }
 
 /* ------------------------
