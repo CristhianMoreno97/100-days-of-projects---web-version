@@ -29,3 +29,6 @@ BEM methodology
 
 El concepto mobile-first
 - https://css-tricks.com/how-to-develop-and-test-a-mobile-first-design-in-2021/
+
+Open Source UI Resources
+- https://www.uidesigndaily.com/
