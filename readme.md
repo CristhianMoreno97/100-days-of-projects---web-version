@@ -13,6 +13,10 @@
     <img src="./images/day-3-desktop.png">
     <img src="./images/day-3-mobile.png">
 </details>
+<details>
+  <summary><strong>Reto día 4</strong></summary>
+    <img src="./images/day-4-desktop.png">
+</details>
 
 # Quick links
 
