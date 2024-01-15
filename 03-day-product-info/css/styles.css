@@ -18,6 +18,7 @@ Tabla de contenidos:
 	--text-color: #191847;
 	--white-color: #FFFFFF;
 	--black-color: #000000;
+	--bullet-color: #00D98B;
 	--font-size: 1rem;
 	--lh-text: 22px;
 }
@@ -34,3 +35,126 @@ body {
 	line-height: var(--lh-text);
 }
 
+a {
+	text-decoration: none;
+}
+
+/* ----- Contenedor ----- */
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background-color: var(--body-bg-color);
+}
+
+/* ----- Tarjeta ----- */
+.card {
+	width: 620px;
+	padding: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	box-shadow: 0 0 9px #ccc;
+	border-radius: 10px;
+	background-color: var(--white-color);	
+}
+
+/* ----- Encabezado Tarjeta ----- */
+.card__header {
+	width: 250px;
+	text-align: right;
+	display: block;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.card__image {
+	width: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----- Cuerpo Tarjeta ----- */
+.card__tag {
+	background-color: var(--text-color);
+	color: var(--white-color);
+	padding: 6px 12px;
+	border-radius: 18px;
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+
+.card__title {
+	font-size: 1.1rem;
+	line-height: 1.6rem;
+	padding: 10px 0;
+}
+
+.price--new {
+	margin: 15px 0;
+	font-size: 2rem;
+}
+
+.card__copy {
+	font-size: 0.7rem;
+	color: #555;
+}
+
+/* ----- boton primario ----- */
+.contained_button {
+	background-color: var(--btn-bg-color);
+	display: block;
+	padding: 12px;
+	margin: 15px 0;
+	color: var(--white-color);
+	text-align: center;
+	font-size: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 7px 0 #1c57ee;
+}
+
+.card__stock {
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+}
+
+.bullet {
+	background-color: var(--bullet-color);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.stock {
+	font-weight: bold;
+}
+
+/* ----- Pie de página ----- */
+.card__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+.outline_button {
+	border: 1px solid #c9c9da;
+	border-radius: 8px;
+	color: var(--text-color);
+	display: inline-block;
+	padding: 12px 12px;
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+}
+
+/* ----- Media Queries ----- */
+@media screen and (max-width: 1080px) {
+	.card {
+		width: 90%;
+		grid-template-columns: 1fr;
+	}
+}
