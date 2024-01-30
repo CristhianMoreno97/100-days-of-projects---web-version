@@ -17,7 +17,10 @@
   <summary><strong>Reto día 4</strong></summary>
     <img src="./images/day-4-desktop.png">
 </details>
-
+<details>
+  <summary><strong>Reto día 7</strong></summary>
+    <img src="./images/day-7-qr-code.png">
+</details>
 # Quick links
 
 Librería de íconos
