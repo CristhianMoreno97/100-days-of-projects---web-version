@@ -21,7 +21,12 @@
   <summary><strong>Reto día 7</strong></summary>
     <img src="./images/day-7-qr-code.png">
 </details>
-# Quick links
+<details>
+  <summary><strong>Reto día 8</strong></summary>
+    <img src="./images/day-8-nft-preview-card.png">
+    <img src="./images/day-8-nft-preview-card--hover.png">
+</details>
+
 
 Librería de íconos
 - https://fontawesome.com/icons
